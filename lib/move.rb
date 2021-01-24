@@ -9,6 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(num)
   num.to_i
+  num - 1
 end
 
 def move
